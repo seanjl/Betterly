@@ -21,7 +21,7 @@
     }
     
     .darkmode-card {
-        background-color: #002702 !important;
+        background-color: #98ee99 !important;
     }
     /* CUSTOM COLOURS */
     
@@ -182,21 +182,6 @@
     /* CUSTOM FONTS */
     
     @font-face {
-        font-family: 'VTKS';
-        src: url('../fonts/VTKS.ttf') format('truetype'), url('../fonts/VTKS.woff') format('truetype'), url('../fonts/VTKS.ttf') format('truetype');
-    }
-    
-    @font-face {
-        font-family: 'VMS';
-        src: url('../fonts/VMS.ttf') format('truetype'), url('../fonts/VMS.woff') format('truetype'), url('../fonts/VMS.ttf') format('truetype');
-    }
-    
-    @font-face {
-        font-family: 'Transport';
-        src: url('../fonts/Transport.ttf') format('truetype'), url('../fonts/Transport.woff') format('truetype'), url('../fonts/Transport.ttf') format('truetype');
-    }
-    
-    @font-face {
         font-family: 'Signika';
         src: url('../fonts/Signika-Light.ttf') format('truetype'), url('../fonts/Signika-Light.woff') format('truetype'), url('../fonts/Signika-Light.ttf') format('truetype');
     }
@@ -220,26 +205,26 @@
     h1,
     h4,
     h6 {
-        font-family: Transport !important;
+        font-family: 'Signika', sans-serif !important;
         color: #1be6f4 !important;
         font-smooth: auto;
     }
     
     h2 {
-        font-family: Transport !important;
+        font-family: 'Signika', sans-serif !important;
         color: #fff !important;
         font-smooth: auto;
     }
     
     h3 {
-        font-family: VMS !important;
+        font-family: 'Signika', sans-serif !important;
         color: #f4af1b !important;
         font-smooth: auto;
         font-size: 1rem !important;
     }
     
     h5 {
-        font-family: Transport !important;
+        font-family: 'Signika', sans-serif !important;
         font-smooth: auto;
         color: #e91e63 !important;
         font-size: 1rem !important;
@@ -260,13 +245,13 @@ a {
     */
     
     .nav-item {
-        font-family: 'Transport' !important;
+        font-family: 'Signika', sans-serif !important;
         font-smooth: auto;
     }
     /* TICKER FONT */
     
     .font-ticker {
-        font-family: VMS !important;
+        font-family: 'Signika', sans-serif !important;
         font-smooth: auto;
     }
     /* CUSTOM TEXTS */
