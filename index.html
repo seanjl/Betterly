@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 
-    <title>Betterly | Betterly</title>
+    <title>Home | Betterly</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/material.css">
     <link rel="stylesheet" href="css/material.css.map">
@@ -21,32 +21,17 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg darkmode-bg-nav darkmode-accent-txt">
-            <a class="navbar-brand mx-auto font-signika " href="#main">Betterly</a>
+        <nav class="navbar navbar-expand-lg betterly-bg-nav betterly-accent-txt">
+            <a class="navbar-brand mx-auto font-signika text-white" href="#main">Betterly</a>
         </nav>
     </header>
 
-    <!-- TICKER
-        <div id="ticker-wrapper" class="no-js">
-            <ul id="js-news" class="js-hidden">
-                <li class="news-item font-ticker"><a href="#">This is the 1st latest news item.</a></li>
-                <li class="news-item"><a href="#">This is the 2nd latest news item.</a></li>
-                <li class="news-item"><a href="#">This is the 3rd latest news item.</a></li>
-                <li class="news-item"><a href="#">This is the 4th latest news item.</a></li>
-            </ul>
-        </div>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.6.4/jquery.js'></script>
-        <script src="./script.js"></script>
-     -->
-
-
-    <main class="card-dashboard darkmode-bg" id="main">
+    <main class="card-dashboard betterly-bg" id="main">
         <br>
-        <!-- INFO INRO Card -->
         <h5 class="card-title text-green text-center">NEW</h5>
 
-        <!-- POST-1 Card -->
-        <div class="card-dash-item-index darkmode-card" data-aos="fade-up">
+        <!-- RSS FEED CARDS -->
+        <div class="card-dash-item-index betterly-card" data-aos="fade-up">
             <!-- start sw-rss-feed code -->
             <script type="text/javascript">
                 rssfeed_url = new Array();
@@ -55,6 +40,7 @@
                 rssfeed_url[2] = "https://www.reddit.com/r/DopamineDetox.rss";
                 rssfeed_url[3] = "https://www.reddit.com/r/selfimprovement.rss";
                 rssfeed_url[4] = "https://www.reddit.com/r/motivation.rss";
+                rssfeed_url[4] = "https://www.reddit.com/r/GetMotivated.rss";
                 rssfeed_frame_width = "100%";
                 rssfeed_frame_height = "100%";
                 rssfeed_scroll = "off";
@@ -90,18 +76,18 @@
                 rssfeed_no_items = "999";
                 rssfeed_cache = "4e410aa94d2d0afca14221f8040ab625";
             </script>
-            <script type="text/javascript" src="https://feed.surfing-waves.com/js/rss-feed.js"></script>
+            <script type="text/javascript" src="js/rss-feed.js"></script>
         </div>
 
 
     </main>
 
-    <footer class="bottom-nav width-100 darkmode-bg-bnav">
+    <footer class="bottom-nav width-100 betterly-bg-bnav">
         <nav class="nav justify-content-around height-4em">
-            <a class="nav-item nav-link bottom-nav-item darkmode-accent-txt" href="#main">HOME</a>
-            <a class="nav-item nav-link bottom-nav-item darkmode-accent2-txt" href="explore.html">EXPLORE</a>
-            <a class="nav-item nav-link bottom-nav-item darkmode-accent2-txt" href="info.html">WIKI</a>
-            <a class="nav-item nav-link bottom-nav-item darkmode-accent2-txt" href="about.html">ABOUT</a>
+            <a class="nav-item nav-link bottom-nav-item betterly-accent-txt" href="#main">HOME</a>
+            <a class="nav-item nav-link bottom-nav-item betterly-accent2-txt" href="explore.html">EXPLORE</a>
+            <a class="nav-item nav-link bottom-nav-item betterly-accent2-txt" href="info.html">HAPPY NEWS</a>
+            <a class="nav-item nav-link bottom-nav-item betterly-accent2-txt" href="about.html">ABOUT</a>
         </nav>
     </footer>
 
