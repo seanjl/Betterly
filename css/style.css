@@ -3,6 +3,7 @@
         height: 100%;
         background-color: #fffff6 !important;
         scroll-behavior: smooth;
+        font-family: 'Signika', sans-serif;
     }
     /* DARK MODE */
     
@@ -39,8 +40,8 @@
         height: 100%;
     }
     
-    .explore-img-climateChange {
-        background-image: url("../explore/assets/ClimateChange.jpg");
+    .explore-img-cuteAnimals {
+        background-image: url("../explore/assets/cuteAnimals.jpg");
         background-size: cover;
         background-position: 50% 50%;
     }
