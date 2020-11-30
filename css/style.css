@@ -24,6 +24,11 @@
     .betterly-card {
         background-color: #98ee99 !important;
     }
+    
+    .betterly-card-short {
+        background-color: #98ee99 !important;
+        height: 20vh !important;
+    }
     /* CUSTOM COLOURS */
     
     .betterly-accent-txt {
@@ -41,13 +46,13 @@
     }
     
     .explore-img-cuteAnimals {
-        background-image: url("../explore/assets/cuteAnimals.jpg");
+        background-image: url("../explore/assets/cute_animals.jpg");
         background-size: cover;
         background-position: 50% 50%;
     }
     
-    .explore-img-coldWar2 {
-        background-image: url("../explore/assets/ColdWar2.jpg");
+    .explore-img-comedycomedy {
+        background-image: url("../explore/assets/comedy.jpg");
         background-size: cover;
         background-position: 50% 50%;
     }
@@ -81,13 +86,12 @@
         background-size: cover;
         background-position: 50% 50%;
     }
-
+    
     .about-img-logo {
         display: block;
         margin: auto;
         max-width: 8em;
     }
-
     /*   MAIN & NAV */
     
     .navbar {
@@ -198,7 +202,6 @@
         margin-bottom: 100vw;
     }
     /* TITLE FONT */
-
     
     .font-signika {
         font-family: 'Signika', sans-serif !important;
@@ -232,6 +235,7 @@
         font-smooth: auto;
         color: #e91e63 !important;
         font-size: 1rem !important;
+        font-weight: 400 !important;
     }
     
     p {
@@ -243,20 +247,17 @@
     .text-cyan {
         color: #1be6f4 !important;
     }
-
+    
     a {
         color: #e91e63 !important;
     }
-
     
     .nav-item {
         font-family: 'Signika', sans-serif !important;
         font-smooth: auto;
     }
-
     /* CUSTOM TEXTS */
     
     .text-respon {
         font-size: 1rem;
     }
-   
