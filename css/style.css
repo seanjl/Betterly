@@ -261,3 +261,7 @@
     .text-respon {
         font-size: 1rem;
     }
+    
+    .text-shadow {
+        text-shadow: 0.07em 0.07em #000000d3;
+    }
