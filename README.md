@@ -1,2 +1,2 @@
 # Betterly / EnjoyTheCollapse
-How to enjoy the decline of civilization
+News aggregator that helps users become happier and more productive
